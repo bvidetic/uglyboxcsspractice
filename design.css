@@ -1,0 +1,103 @@
+ .main-container {
+ 	background-color: purple;
+ }
+
+/*top bar*/
+header {
+	background-color: red;
+}
+
+.logo {
+	background-color: yellow;
+		border-style:solid;
+		border-color:purple;
+		border-radius:25px
+}
+
+ header nav {
+ 	background-color: green;
+ 		border-style:solid;
+		border-color:red;
+		border-radius:25px
+ }
+
+header nav a {
+	background-color: lime;
+}
+
+header nav a.selected {
+	background-color: black;
+	color: white;
+}
+
+/*main*/
+main {
+	background-color: brown;
+ }
+
+
+/*aside*/
+aside {
+background-color: pink;
+	border-style:solid;
+	border-color:red;
+	border-radius:25px
+}
+
+ aside nav {
+ 	background-color: red;
+ }
+
+ aside nav a{
+ 	background-color: salmon;
+ 		border-style:solid;
+		border-color:red;
+		border-radius:25px
+ }
+
+/*articles*/
+article {
+	background-color: blue;
+	border-style:solid;
+	border-color:red;
+	border-radius:25px
+}
+
+article a {
+	background-color: green;
+		border-style:solid;
+	border-color:red;
+c
+}
+
+article h1 {
+background-color: violet;
+text-shadow: 5px 5px 5px #FF0000;
+}
+
+article p {
+background-color: teal;
+}
+
+article.special{
+	background-color: yellow;
+}
+
+article.special h1 {
+background-color: green;
+}
+
+/*footer*/
+ footer {
+ 	background-color: green;
+ }
+
+ footer p {
+ 	background: -webkit-linear-gradient(red, blue); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(red, blue); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(red, blue); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(red, blue); /* Standard syntax */
+ 	border-style:solid;
+	border-color:red;
+	border-radius:25px
+ }
